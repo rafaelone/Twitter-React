@@ -3,7 +3,6 @@ import React from 'react';
 import {
   Container,
   Retweeted,
-  RafaIcon,
   Body,
   Avatar,
   Content,
@@ -21,10 +20,7 @@ import {
 const Tweet: React.FC = () => {
   return (
     <Container>
-      <Retweeted>
-        {/* <RafaIcon /> */}
-        Você retweetou
-      </Retweeted>
+      <Retweeted>Você retweetou</Retweeted>
       <Body>
         <Avatar />
         <Content>

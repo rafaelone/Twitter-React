@@ -1,16 +1,18 @@
 import React from 'react';
 
-import Main from '../Main';
+import MenuBar from '../../components/MenuBar';
+import SideBar from '../../components/SideBar';
 
 import { Container, Wrapper } from './styles';
+import Routes from '../../routes';
 
 const Layout: React.FC = () => {
   return (
     <Container>
       <Wrapper>
-        {/* <MenuBar /> */}
-        <Main />
-        {/* <SideBar /> */}
+        <MenuBar />
+        <Routes />
+        <SideBar />
       </Wrapper>
     </Container>
   );
